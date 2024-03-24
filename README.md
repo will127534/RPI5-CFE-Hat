@@ -1,5 +1,6 @@
 # CFexpress PCIe Hat for Raspberry Pi 5
 Welcome to the GitHub repository for the open-source CFexpress (CFE) PCIe Hat designed specifically for the Raspberry Pi 5. This project aims to enhance the Raspberry Pi 5 by adding the ability to interface with CFexpress Type B cards directly, enabling high-speed data transfer and storage solutions.
+![](https://github.com/will127534/RPI5-CFE-Hat/blob/images/_DSC4473-3.jpg)
 
 ## Features
 * CFexpress Type B Card slot: Directly connect a CFexpress Type B card to your Raspberry Pi 5 for high-speed data storage and transfer.
