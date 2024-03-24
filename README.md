@@ -12,7 +12,7 @@ Welcome to the GitHub repository for the open-source CFexpress (CFE) PCIe Hat de
 * Automounting feature requires I2C connection from either QWIIC port or RPI GPIO
 * The board does not support hot-unplug even with the auto-mount script, so you will need to press the eject button to signal unmount request
 * Gerber and CPL file for JLCPCB is under /Gerber
-* Bom for interactive bom html [provided by InteractiveHtmlBom
+* [Interactive BOM](https://htmlpreview.github.io/?https://github.com/will127534/RPI5-CFE-Hat/blob/main/bom/ibom.html) [(provided by InteractiveHtmlBom)
 ](https://github.com/openscopeproject/InteractiveHtmlBom) and JLCPCB BOM under /bom
 * Source Code for CH32V003 based I2C to GPIO and Python code on RPI under /software
 
