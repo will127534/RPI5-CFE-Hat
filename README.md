@@ -15,6 +15,7 @@ Welcome to the GitHub repository for the open-source CFexpress (CFE) PCIe Hat de
 * [Interactive BOM](https://htmlpreview.github.io/?https://github.com/will127534/RPI5-CFE-Hat/blob/main/bom/ibom.html) [(provided by InteractiveHtmlBom)
 ](https://github.com/openscopeproject/InteractiveHtmlBom) and JLCPCB BOM under /bom
 * Source Code for CH32V003 based I2C to GPIO and Python code on RPI under /software
+* Limited amount on [Tindle](https://www.tindie.com/products/34094/) for sell
 
 ## Support
 For questions, issues, or suggestions, please open an issue in the [GitHub repository](https://github.com/will127534/RPI5-CFE-Hat/issues)  
