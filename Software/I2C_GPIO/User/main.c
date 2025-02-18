@@ -54,7 +54,7 @@ void IIC_Init(u32 bound, u16 address)
     //RPI5 Control Signal
         //DET-WAKE
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init( GPIOC, &GPIO_InitStructure );
         //PWR_EN
@@ -150,6 +150,8 @@ int main(void)
     GPIO_WriteBit(LED_GPIO, LEDB, 1);
 
     GPIO_WriteBit(NVME_PWR_GPIO, NVME_PWR, 0);
+
+    GPIO_WriteBit(CTRL_GPIO, DET_WAKE, 1);
     //Delay_Ms(1000);
     while (1){
         TxData = GPIO_ReadInputDataBit(CTRL_GPIO, INSERT) | (GPIO_ReadInputDataBit(BUTTON_GPIO, BUTTON) << 1);
